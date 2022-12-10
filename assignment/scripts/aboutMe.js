@@ -9,14 +9,14 @@
 // 4 - Console log the value of `fullName`
     console.log( fullName );
 // 5 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
-    let luckyNumber = 2;
+    let luckyNumber = 6;
 // 6 - Console log this sentence, adding in the variables you created above: 
 // 'My name is (full name), and I think (lucky number) is a winner!'.
     console.log( 'My name is ' + fullName + ', and I think ' + luckyNumber + ' is a winner!');
 // Refer back to the videos if you need help with this one.
 
 // 7 - Create a variable named `adventurous` and set it to a boolean value (true or false)
-    let adventurous = true;
+    let adventurous = false;
 // 8 - Create a variable named `food`, and set its value to a string of your favorite food
     let food = 'dumplings';
 // 9 - Create a variable called `pets` and set it to the value of the number of pets you have
@@ -78,7 +78,7 @@
                 
             }
 
-    console.log(mostPets)
+    console.log( mostPets )
 
 // 17 - Write a *switch* statement that logs:
 //      "First is the worst" if your lucky number is 1
@@ -87,6 +87,19 @@
 //      Otherwise, log "Luck is what happens when preparation meets opportunity"
 //      You'll need to research how to use switch statements!
 
+    switch(luckyNumber){
+        case 1: 
+            console.log( 'First is the worst' );
+            break;
+        case 2: 
+            console.log( 'Second is the best' );
+            break;
+        case 3:
+            console.log( 'Third is the one with the polka dot dress' );
+        default:
+            console.log( 'Luck is what happens when preparation meets opportunity' );
+    }
+
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
 
-
+adventurous == true ? console.log( 'Adventures are great!' ) : console.log( 'How about we stay at home?' );

@@ -67,17 +67,17 @@
 
     if( pets > friendPets ){
         mostPets = pets;
-        console.log( 'I have the most pets with ' +  mostPets + ' pets!' );
+    
     }
         else if( pets < friendPets ){
             mostPets = friendPets;
-            console.log( 'My friend has the most pets with ' + mostPets + ' pets!' );
+            
         }
             else if( pets == friendPets ){
                 mostPets = pets;
-                console.log( 'We have the same number of pets with ' + mostPets ' pets each!');
+                
             }
-            
+
     console.log(mostPets)
 
 // 17 - Write a *switch* statement that logs:
